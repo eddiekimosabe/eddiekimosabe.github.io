@@ -7,6 +7,7 @@ body {
   margin: 0px auto;
   min-width: 960px;
   width: 100%;
+  font-family:'Lato', Arial, sans-serif,
 }
 
 .nav li a:hover{color: red;
@@ -201,3 +202,14 @@ h4 {
   display: table;
   clear: both;
 }
+
+  @font-face {
+    font-family: 'EntypoRegular';
+    src: url('font/Entypo-webfont.eot');
+    src: url('font/Entypo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Entypo-webfont.woff') format('woff'),
+         url('font/Entypo-webfont.ttf') format('truetype'),
+         url('font/Entypo-webfont.svg#EntypoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
