@@ -7,11 +7,7 @@ body {
   margin: 0px auto;
   min-width: 960px;
   width: 100%;
-  font-family:'Lato', Garamond, sans-serif,;
-}
-
-.nav li a:hover{color: red;
-}
+  font-family:'Lato', Garamond, sans-serif,;}
 
 p {
   margin: 1em;
@@ -218,3 +214,6 @@ h4 {
     font-weight: normal;
     font-style: normal;
   }
+  
+.nav li a:hover{color: red;
+}
