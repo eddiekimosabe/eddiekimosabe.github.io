@@ -1,10 +1,12 @@
 
         body {background-image: url("http://i.minus.com/jojyc0FbwFqGm.png");}
+        
         .container{width: 690px;
                    margin:auto;}
-        #nav{float: left;
+
+        #nav{
+            float: left;
             width:120px;
-            background-color:green;
             height: 755px;
             padding-top: 55px;}
 
@@ -14,7 +16,7 @@
         #nav > h2 {
           text-align: center;}
 
-        #content{background-color:blue;
+        #content{
         height:810px;
         width: 550px;
         float: right;
@@ -25,7 +27,7 @@
         
         #title{text-align:center;}
         
-        #footer{background-color:red;
+        #footer{
         border-top: 5px solid black; 
         text-align: center;
         z-index: 1;
