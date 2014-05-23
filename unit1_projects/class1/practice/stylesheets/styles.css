@@ -9,6 +9,9 @@ body {
   width: 100%;
 }
 
+li > a:hover{color: red;
+}
+
 p {
   margin: 1em;
 }
