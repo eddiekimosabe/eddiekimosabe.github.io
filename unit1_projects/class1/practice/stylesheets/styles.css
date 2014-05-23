@@ -9,7 +9,7 @@ body {
   width: 100%;
 }
 
-li > a:hover{color: red;
+.nav li a:hover{color: red;
 }
 
 p {
