@@ -79,7 +79,7 @@ section{
     border-radius:3px;
     text-align:center;}
     
-section #content{padding: 5em;}    
+section #content{}    
 
 #content h2 {
   font-family: Sans-serif, Garamond, Verdana;
@@ -88,5 +88,6 @@ section #content{padding: 5em;}
 img{
     clear:both;
 margin:auto;
+width: 20%;
 }
 
