@@ -107,7 +107,7 @@ header:after {
 
 
 /* Main */
-#main div {
+#main section {
   margin-bottom: 1em;
   position: relative;
 }
@@ -126,7 +126,7 @@ header:after {
 
 
 /* Famous Women */
-#famous div.woman {
+#famous  article.woman {
   background-color: white;
   float: left;
   min-height: 250px;
@@ -135,11 +135,11 @@ header:after {
   width: 27.33%;
 }
 
-#famous div.break {
+#famous article.break {
   clear: both;
 }
 
-#famous div img {
+#famous article img {
   display: block;
   margin: 1em auto;
   width: 100%;
@@ -157,11 +157,17 @@ header:after {
 }
 #organizations ul li {
   font-size: 1.2em;
-  font-family: 'EntypoRegular';
   line-height: 1.3em;
   margin-bottom: 1em;
   padding-left: 5px;
   max-width: 50%;
+}
+#organizations ul li:before {
+  color: #FB000D;
+  content: '6';
+  font-family: 'EntypoRegular';
+  font-size: 40px;
+  padding-right: 10px;
 }
 #organizations img {
   position: absolute;
@@ -180,10 +186,16 @@ header:after {
 }
 #facts ul li {
   font-size: 1.2em;
-  font-family: 'EntypoRegular';
   line-height: 1.3em;
   margin-bottom: 1em;
   padding-left: 5px;
+}
+#facts ul li:before {
+  color: #FFA700;
+  content: '7';
+  font-family: 'EntypoRegular';
+  font-size: 30px;
+  padding-right: 10px;
 }
 
 
