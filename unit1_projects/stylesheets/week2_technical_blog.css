@@ -28,11 +28,11 @@ header {
 
     padding:2em;
 
-    border-top: solid black 5px;
-    border-right: solid black 5px;
-    border-left: solid black 5px;
+    border-top: solid black 3px;
+    border-right: solid black 3px;
+    border-left: solid black 3px;
 
-    width:95%;
+    width:97.5%;
 
     height:20%;
 
@@ -44,9 +44,9 @@ header {
 
     padding: 0.1em;
 
-    border: solid black 4px;
+    border: solid black 2px;
 
-    width:98%;
+    width:99%;
 
     display: block;
 
@@ -64,8 +64,8 @@ nav {
 
     background-color:;
     padding: 0.5em 2em;
-    border: solid black 5px;
-    width:95%;
+    border: solid black 3px;
+    width:97.5%;
 }
 
 nav p{display:inline;
@@ -86,12 +86,12 @@ nav #plink a{
 nav #plink a:hover{color:red}
 
 #wireframe {
-    margin-left: 5%;
+    margin-left: 10%;
 }
 
 section{ 
     width:90%;
     background-color:pink;
     position:relative;
-    border:solid gold 5px;
+    border:solid gold 3px;
 }
