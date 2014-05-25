@@ -77,7 +77,8 @@ section{
     margin:auto;
     border:solid black 1px;
     border-radius:3px;
-    text-align:center;}
+    text-align:center;
+    padding:1em;}
     
 
 #content h2 {
