@@ -94,5 +94,6 @@ section{
     width:85%;
     background-color:pink;
     position:relative;
-    border:solid gold 3px;
+    border:solid gold 3px
+    margin:auto;
 }
