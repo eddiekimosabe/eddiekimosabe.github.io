@@ -83,5 +83,6 @@ section{
   font-family: Sans-serif, Garamond, Verdana;
 }
 
-img{clear:both;
+img{float:left;
+    clear:both;
 }
