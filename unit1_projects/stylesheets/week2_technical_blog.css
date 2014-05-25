@@ -26,7 +26,7 @@ header {
 
     background-color: ;
 
-    padding:2em;
+    padding:1em;
 
     border-top: solid black 3px;
     border-right: solid black 3px;
@@ -42,7 +42,7 @@ header {
 
     background-color: ;
 
-    padding: 0.1em;
+    padding: 0em;
 
     border: solid black 2px;
 
@@ -63,13 +63,13 @@ header {
 nav {
 
     background-color:;
-    padding: 0.5em 2em;
+    padding: 0.5em 1em;
     border: solid black 3px;
     width:97.5%;
 }
 
 nav p{display:inline;
-padding-right:3em;}
+padding-right:1em;}
 
 nav #plink{list-style-type:none;
     display:inline;
@@ -78,7 +78,7 @@ nav #plink{list-style-type:none;
 
 nav #plink a{
     display:inline;
-    padding:1.5em;
+    padding:1em;
     text-decoration:none;
     color:black;
 }
