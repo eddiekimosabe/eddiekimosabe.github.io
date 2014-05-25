@@ -28,9 +28,9 @@ header {
 
     padding:1em;
 
-    border-top: solid black 3px;
-    border-right: solid black 3px;
-    border-left: solid black 3px;
+    border-top: solid red 3px;
+    border-right: solid red 3px;
+    border-left: solid red 3px;
 
     width:97.5%;
 
@@ -64,7 +64,7 @@ nav {
 
     background-color:;
     padding: 0.5em 1em;
-    border: solid black 3px;
+    border: solid blue 3px;
     width:97.5%;
 }
 
