@@ -77,9 +77,9 @@ section{
     margin:auto;
     border:solid black 1px;
     border-radius:3px;
-    text-align:center;
-    padding:1em;}
+    text-align:center;}
     
+section #content{padding: 2em;}    
 
 #content h2 {
   font-family: Sans-serif, Garamond, Verdana;
