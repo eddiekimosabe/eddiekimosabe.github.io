@@ -10,7 +10,7 @@ body {
 
     line-height:1.2em;
     
-    margin: 0px auto;
+    margin: auto;
 
     min-width: 960px;
 
@@ -42,7 +42,7 @@ header {
 
     background-color: ;
 
-    padding: 0.1;
+    padding: 0.1em;
 
     border: solid black 4px;
 
@@ -86,7 +86,7 @@ nav #plink a{
 nav #plink a:hover{color:red}
 
 #wireframe {
-    margin-left: 16%;
+    margin-left: 10%;
 }
 
 section{ 
