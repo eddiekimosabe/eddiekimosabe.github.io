@@ -43,7 +43,7 @@ margin-left: 3.5%;
     background-color: ;
 
    margin: auto;
-   
+
     border: solid black 2px;
 
     width:98%;
@@ -66,7 +66,7 @@ nav {
     padding: 0.5em 1em;
     border: solid blue 3px;
     width:90%;
-    margin-left: 3.5%;
+    margin:auto;
 }
 
 nav p{display:inline;
@@ -87,7 +87,7 @@ nav #plink a{
 nav #plink a:hover{color:red}
 
 #wireframe {
-    margin-left: 10%;
+    margin: auto;
 }
 
 section{ 
