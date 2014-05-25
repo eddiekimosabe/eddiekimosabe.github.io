@@ -135,7 +135,7 @@ header:after {
   width: 27.33%;
 }
 
-#famous article.break {
+#famous article:nth-child(4n) {
   clear: both;
 }
 
