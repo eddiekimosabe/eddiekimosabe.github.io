@@ -103,6 +103,8 @@ footer{
     margin:auto;
    position:relative;
    background-color:#625959;
+   border-top: solid black 5px;
+   border-radius: 3px;
 
 }
 footer h5{text-align: center;
