@@ -91,5 +91,8 @@ margin:auto;}
 
 div .example img {width:65%;}
 
-div #main{padding:0% 20%;}
+section #content{
+    padding-left: 10%;
+    padding-right: 10%;
+}
 
