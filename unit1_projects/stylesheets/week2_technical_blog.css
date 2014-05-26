@@ -95,3 +95,11 @@ section #content p{
     margin-right: 10%;
 }
 
+footer{
+    height:10%;
+    width:90%;
+    padding:1em;
+    margin:auto;
+    border-top: black solid 5px;
+    text-align: center;
+}
