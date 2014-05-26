@@ -28,6 +28,21 @@ h1{color:White;
 margin:auto;
 text-align:center;}
 
+header li{
+    list-style-type:none;
+    display:inline;
+    position: relative;
+}
+
+header li a{
+    display:inline;
+    padding:1em;
+    text-decoration:none;
+    color:black;
+}
+
+header li a:hover{color:red}
+
 article img{border-radius:100%;}
 
 
@@ -39,9 +54,9 @@ article img{border-radius:100%;}
 		<h1>Eddie Kim</h1>
 		<nav>
 			<ul>
-				<li>Unit 1</li>
-				<li>Unit 2</li>
-				<li>Unit 3</li>
+				<li><a href="#unit1">Unit 1</a></li>
+				<li><a href="#unit2">Unit 2</a></li>
+				<li><a href="#unit3">Unit 3</a></li>
 			</ul>
 
 		</nav>
@@ -57,7 +72,8 @@ article img{border-radius:100%;}
 
 <section>
 
-<article>
+<article
+	<a name="unit1"></a>
 	<h2>Unit 1</h2>
 	<ul>
 	<li><a href ="http://eddiekimosabe.github.io/unit1_projects/week1_technical_blog.html">Technical Blog: Week 1</a></li>
@@ -68,9 +84,11 @@ article img{border-radius:100%;}
 </ul>
 </article>
 <article>
+	<a name="unit2"></a>
 	<h2>Unit 2</h2>
 </article>
 <article>
+	<a name="unit1"></a>
 	<h2>Unit 3</h2>
 </article>
 </section>
