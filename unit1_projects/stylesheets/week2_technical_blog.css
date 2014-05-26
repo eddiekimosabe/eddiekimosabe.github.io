@@ -86,7 +86,9 @@ section{
 
 img{
     clear:both;
-margin:auto;}
+margin:auto;
+border: solid black 2px;
+border-radius: 2px;}
 
 div .example img {width:65%;}
 
@@ -100,7 +102,7 @@ footer{
     padding: 1em;
     margin:auto;
    position:relative;
-   background-color:#eedbdb;
+   background-color:#625959;
 
 }
 footer h5{text-align: center;
