@@ -79,7 +79,6 @@ section{
     border-radius:3px;
     text-align:center;}
     
-section #content{}    
 
 #content h2 {
   font-family: Sans-serif, Garamond, Verdana;
@@ -91,7 +90,7 @@ margin:auto;}
 
 div .example img {width:65%;}
 
-section #content{
+section #content p{
     margin-left: 10%;
     margin-right: 10%;
 }
