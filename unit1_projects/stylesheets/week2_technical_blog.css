@@ -96,12 +96,12 @@ section #content p{
 }
 
 footer{
-    height:10%;
     width:90%;
-    padding:1em;
+    padding: 1em;
     margin:auto;
     border-top: black solid 5px;
-    position:relative;
+    position: relative;
+    z-index:1 ;
 
 }
 h5{text-align: center;}
