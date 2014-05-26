@@ -92,7 +92,7 @@ margin:auto;}
 div .example img {width:65%;}
 
 section #content{
-    padding-left: 10%;
-    padding-right: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
