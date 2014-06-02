@@ -86,12 +86,14 @@ section{
 li {list-style-type: none;
     text-align: left;}
 h4{text-align: left;}
-th{font-size: 1.25em;}
-section #content p{
-    margin-left: 10%;
-    margin-right: 10%;
-}
-table{border: solid black 2px;}
+
+th{font-size: 1.25em;
+    border:solid black 2px;}
+
+table{border: solid black 2px;
+margin: auto;
+float:none;
+clear: both;}
 
 footer{
     width:90%;
