@@ -48,6 +48,27 @@ nav {
 }
 
 
+nav p{
+  display:inline;
+  padding-right:1em;
+}
+
+nav #plink{
+    list-style-type:none;
+    display:inline;
+    position: relative;
+}
+
+nav #plink a{
+    display:inline;
+    padding:1em;
+    text-decoration:none;
+    color:black;
+}
+
+nav #plink a:hover{color:red}
+
+
 #wireframe {
     margin: auto;
 }
@@ -61,7 +82,7 @@ section{
     border:solid black 1px;
     border-radius:3px;
     text-align:center;
-    padding: 10%;
+    padding: 5%;
 }
     
 li {list-style-type: none;}
