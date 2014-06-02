@@ -83,7 +83,9 @@ section{
     text-align:center;
 }
     
-li {list-style-type: none;}
+li {list-style-type: none;
+    text-align: center;}
+h4{text-align: center;}
 
 section #content p{
     margin-left: 10%;
