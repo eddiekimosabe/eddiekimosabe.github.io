@@ -22,6 +22,8 @@ header {
     width:90%;
     margin: auto;
     height:20%;
+    text-align: center;
+    line-height: 1em;
 }
 
 #title {
@@ -58,8 +60,11 @@ section{
     margin:auto;
     border:solid black 1px;
     border-radius:3px;
-    text-align:center;}
+    text-align:center;
+    padding: 5%;
+}
     
+li {text-decoration: none;}
 
 #content h2 {
   font-family: Sans-serif, Garamond, Verdana;
