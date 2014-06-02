@@ -84,8 +84,8 @@ section{
 }
     
 li {list-style-type: none;
-    text-align: center;}
-h4{text-align: center;}
+    text-align: left;}
+h4{text-align: left;}
 
 section #content p{
     margin-left: 10%;
