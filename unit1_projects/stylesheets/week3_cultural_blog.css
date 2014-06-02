@@ -91,6 +91,7 @@ section #content p{
     margin-left: 10%;
     margin-right: 10%;
 }
+table{border: solid black 2px;}
 
 footer{
     width:90%;
