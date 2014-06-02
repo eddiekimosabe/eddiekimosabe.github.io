@@ -64,7 +64,7 @@ section{
     padding: 5%;
 }
     
-li {text-decoration: none;}
+li {list-style-type: none;}
 
 section #content p{
     margin-left: 10%;
