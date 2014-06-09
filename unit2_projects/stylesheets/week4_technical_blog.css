@@ -84,6 +84,9 @@ section{
     text-align:center;
 }
 
+img {
+    width:40%;
+}
 footer{
     width:90%;
     padding: 1em;
