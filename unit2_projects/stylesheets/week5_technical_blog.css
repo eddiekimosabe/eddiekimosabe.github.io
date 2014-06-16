@@ -84,11 +84,11 @@ section{
     text-align:center;
 }
 
-#first_img {
+#first_img img{
     width:60%;
 }
 
-.class_img{width:30%;}
+.class_img img{width:30%;}
 
 footer{
     width:90%;
