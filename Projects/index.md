@@ -2,6 +2,9 @@
 layout: page
 title: Projects
 excerpt: "An archive of projects sorted by date."
+modified: 2014-09-18
+image:
+    feature: so-simple-sample-image-2.jpg
 ---
 
 <ul class="post-list">
