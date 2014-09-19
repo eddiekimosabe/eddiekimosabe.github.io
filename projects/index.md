@@ -3,7 +3,7 @@ layout: page
 title: Projects
 excerpt: "An archive of projects sorted by date."
 image:
-    feature: so-simple-sample-image-2.jpg
+    feature: galaxy.png
 ---
 
 <ul class="post-list">
