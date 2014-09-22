@@ -1,15 +1,15 @@
 // Selection
 // --------------------------------------------------
 
-::-moz-selection { 
-	background-color: lighten($base-color, 65%); 
-	color: $base-color; 
-	text-shadow: none; 
-}  	
-::selection { 
-	background-color: lighten($base-color, 65%); 
-	color: $base-color; 
-	text-shadow: none; 
+::-moz-selection {
+	background-color: lighten($base-color, 65%);
+	color: $base-color;
+	text-shadow: none;
+}
+::selection {
+	background-color: lighten($base-color, 65%);
+	color: $base-color;
+	text-shadow: none;
 }
 
 
@@ -47,6 +47,9 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
 	@include font-size(36);
 }
+h1.entry-title{
+	text-align: center;
+}
 h2 {
 	@include font-size(32);
 }
@@ -56,6 +59,7 @@ h3 {
 h4 {
 	@include font-size(24);
 }
+
 h5 {
 	@include font-size(20);
 }
@@ -106,26 +110,29 @@ tr, td, th {
 	vertical-align: middle;
 }
 
+ul.left-column{
+	margin-top: -140px;
+}
 
 // Links
 // --------------------------------------------------
 
-a { 
+a {
 	text-decoration: none;
-	color: $link-color; 
-	&:visited { 
-		color: lighten($link-color, 20); 
+	color: $link-color;
+	&:visited {
+		color: lighten($link-color, 20);
 	}
-	&:hover { 
-		color: darken($link-color, 20); 
-	}
-	&:focus { 
-		outline: thin dotted; 
+	&:hover {
 		color: darken($link-color, 20);
 	}
-	&:hover, 
-	&:active { 
-		outline: 0; 
+	&:focus {
+		outline: thin dotted;
+		color: darken($link-color, 20);
+	}
+	&:hover,
+	&:active {
+		outline: 0;
 	}
 }
 
@@ -217,7 +224,7 @@ tt, code, kbd, samp, pre {
 	font-family: $code-font;
 }
 p,
-li { 
+li {
 	code {
 		@include font-size(14);
 		font-family: $code-font;
