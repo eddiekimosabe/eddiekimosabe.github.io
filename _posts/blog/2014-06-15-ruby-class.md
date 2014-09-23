@@ -11,7 +11,7 @@ date: 2014-06-15T18:59:24-04:00
 ---
 <img id = "first_img" src ="http://rubylearning.com/images/class.gif"/>
 <p>
-EVERYTHING IS AN OBJECT. Thought I'd like to clear the air before I started. Ruby is an OOP Language - An Object Oriented Programming Language. So what does that mean? That everything is an object. Everything... 
+EVERYTHING IS AN OBJECT. I'd like to clear the air before I started. Ruby is an OOP Language - An <strong>Object</strong> Oriented Programming Language. So what does that mean? That everything is an object. Everything... 
 
 I would like to talk about Ruby Classes. What are Ruby Classes? Well to start off, they are a certain kind of object. You can, via the class, set what an object is, what an object does, and how an object works. Now the first thing that you must do is create a class.
 <br>
@@ -28,7 +28,7 @@ Now I will set up the class so that it has some sort of "characteristic" or para
 This class Alien will have one parameter: alien_num. We put in the argument into the parenthesis that's next to the initialize. Once we've added that argument in, we also need to make sure that the argument is set as an instance variable. Instance variables are created by adding an @ in front of the word. This way I can use them in any method within the class and it'll retain the same identity throughout, unless I want to change it to something else. 
 <br>
 <br>    
-<img class ="class_img" src = "http://i3.minus.com/jcvDxK97dIOX8_e.jpg"/>
+<img class ="class_img" src = "http://i.minus.com/ibcCB9MEKIzYLK.png"/>
 <br>
 <br>
 After creating the initialize method. I would like to create another instance method. This instance method will take the argument @alien_num and pass it through some conditions that will return strings given the right conditions. I'd like to give the instance method the name attack, since I'd like to attack these aliens.
